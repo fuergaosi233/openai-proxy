@@ -25,6 +25,15 @@ npm install  && npm run build
 npm run deploy
 ```
 
+## Add custom domain
+Add `Route` in `wrangler.toml`
+
+```toml
+routes = [
+	{ pattern = "Your Custom Domain", custom_domain = true },
+]
+```
+
 ## Author
 
 👤 **Holegots**
