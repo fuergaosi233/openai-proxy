@@ -15,7 +15,7 @@
     "@cloudflare/workers-types": "^3.19.0",
     "@types/uuid": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
-    "@typescript-eslint/parser": "^5.38.1",
+    "@typescript-eslint/parser": "^5.54.0",
     "clean-webpack-plugin": "^4.0.0",
     "eslint": "^8.24.0",
     "miniflare": "^2.9.0",
