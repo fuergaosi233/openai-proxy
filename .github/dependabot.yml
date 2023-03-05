@@ -1,0 +1,16 @@
+
+version: 2
+updates:
+- package-ecosystem: npm
+  versioning-strategy: increase
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "12:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - xiaoyang-sde
+  assignees:
+  - xiaoyang-sde
+  labels:
+  - dependencies
